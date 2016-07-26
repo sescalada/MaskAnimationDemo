@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskAnimationDemo", "MaskAnimationDemo\MaskAnimationDemo.csproj", "{D7FD402D-83B2-4D80-8F4F-F82E3AA33E7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7FD402D-83B2-4D80-8F4F-F82E3AA33E7F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D7FD402D-83B2-4D80-8F4F-F82E3AA33E7F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D7FD402D-83B2-4D80-8F4F-F82E3AA33E7F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D7FD402D-83B2-4D80-8F4F-F82E3AA33E7F}.Release|iPhone.Build.0 = Release|iPhone
+		{D7FD402D-83B2-4D80-8F4F-F82E3AA33E7F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D7FD402D-83B2-4D80-8F4F-F82E3AA33E7F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D7FD402D-83B2-4D80-8F4F-F82E3AA33E7F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D7FD402D-83B2-4D80-8F4F-F82E3AA33E7F}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal

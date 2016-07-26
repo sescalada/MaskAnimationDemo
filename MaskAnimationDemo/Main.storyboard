@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlainConcepts-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="xX0-MM-Qyj">
+                                <rect key="frame" x="190" y="270" width="220" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="9ud-rw-W50"/>
+                                    <constraint firstAttribute="width" constant="220" id="m9D-xC-cmc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFp-MN-Pb1">
+                                <rect key="frame" x="277" y="550" width="46" height="30"/>
+                                <state key="normal" title="Magic!"/>
+                            </button>
+                            <pickerView contentMode="scaleToFill" id="3" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="140" y="361" width="320" height="162"/>
+                                <constraints>
+                                    <constraint id="10" firstAttribute="width" secondItem="3" secondAttribute="height" multiplier="160:81"/>
+                                </constraints>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oFp-MN-Pb1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KKe-1t-jUR"/>
+                            <constraint firstItem="xX0-MM-Qyj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gUF-iT-PpP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oFp-MN-Pb1" secondAttribute="bottom" constant="20" id="mvg-6w-csl"/>
+                            <constraint firstItem="xX0-MM-Qyj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wvV-p7-pbk"/>
+                            <constraint id="6" firstItem="3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="9" firstItem="oFp-MN-Pb1" firstAttribute="top" secondItem="3" secondAttribute="bottom" constant="27"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logoImageView" destination="xX0-MM-Qyj" id="iBn-qK-3fp"/>
+                        <outlet property="magicButton" destination="oFp-MN-Pb1" id="uxh-i1-vGk"/>
+                        <outlet property="AnimationOriginPicker" destination="3" id="name-outlet-3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PlainConcepts-logo.png" width="440" height="120"/>
+        <image name="PlainConcepts-logo-mask.png" width="440" height="120"/>
+    </resources>
+</document>
